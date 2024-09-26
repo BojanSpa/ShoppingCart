@@ -23,14 +23,6 @@ describe('Cart', () => {
         expect(cart.Items.length).toBe(1);
     });
 
-    // test('should update the quantity of an item in the cart', () => {
-    //     expect(cart.Items[0].quantity).toBe(2);
-    // });
-
-    // test('should clear all items from the cart', () => {
-    //     expect(cart.Items.length).toBe(0);
-    // });
-
     test('should calculate the total price of the items in the cart', () => {
         expect(cart.Total).toBe(100);
     });
