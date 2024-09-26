@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# TypeScript compiled output
+dist/
+out/
+build/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Optional yarn cache directory
+.yarn
+.yarn/cache
+
+# Environment variables
+.env
+.env.*.local
+
+# Jest cache and coverage files
+jest-cache/
+jest-coverage/
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+
+# Debug files
+debug/
+.idea/
